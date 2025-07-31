@@ -1,46 +1,207 @@
-# Getting Started with Create React App
+<div align="center">
+  
+# 🌐 SupplyChain Nexus
+### La prochaine génération de gestion de chaîne d'approvisionnement
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://www.typescriptlang.org/)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://reactjs.org/)
+[![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
+[![Blockchain](https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white)](https://blockchain.com)
 
-## Available Scripts
+![Supply Chain Banner](https://your-banner-url.com/banner.png)
 
-In the project directory, you can run:
+</div>
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 🚀 Vision
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+SupplyChain Nexus révolutionne la gestion de chaîne d'approvisionnement en fusionnant la puissance de la blockchain avec une interface utilisateur futuriste. Chaque mouvement, chaque transaction, chaque produit est tracé avec une précision absolue dans un registre immuable.
 
-### `npm test`
+## ✨ Caractéristiques
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```typescript
+interface Features {
+  blockchain: {
+    immutability: "Garantie",
+    transparency: "Totale",
+    security: "Maximum"
+  };
+  tracking: {
+    precision: "Temps réel",
+    history: "Complète",
+    verification: "Automatique"
+  };
+  interface: {
+    design: "Intuitif",
+    responsive: true,
+    darkMode: "Adaptif"
+  };
+}
+```
 
-### `npm run build`
+## 🎯 Fonctionnalités Principales
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 📦 Gestion des Produits
+- Suivi en temps réel des stocks
+- Alertes de niveau bas automatiques
+- Historique complet des mouvements
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 🔄 Mouvements de Stock
+```mermaid
+graph LR
+    A[Réception] --> B[Stock]
+    B --> C[Livraison]
+    B --> D[Mouvement Interne]
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 📊 Tableau de Bord
+- Visualisation des données en temps réel
+- Métriques de performance
+- Prévisions basées sur l'IA
 
-### `npm run eject`
+## 🛠 Architecture Technique
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+dapp-supply-chain/
+├── 🔷 src/
+│   ├── 🔶 blockchain/
+│   │   ├── SupplyChainBlockchain.ts
+│   │   └── types.ts
+│   ├── 🔷 components/
+│   │   ├── common/
+│   │   │   ├── Button.tsx
+│   │   │   ├── Input.tsx
+│   │   │   └── Modal.tsx
+│   │   ├── modals/
+│   │   │   ├── AddProductModal.tsx
+│   │   │   ├── DeliveryModal.tsx
+│   │   │   └── ReceptionModal.tsx
+│   │   └── ...
+│   └── 🔷 utils/
+│       └── generatePDF.ts
+└── 📜 package.json
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🚀 Installation
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```bash
+# Cloner le repository
+git clone https://github.com/yourusername/dapp-supply-chain.git
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+# Installer les dépendances
+cd dapp-supply-chain
+npm install
 
-## Learn More
+# Lancer l'application
+npm start
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 💫 Démonstration
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+<div align="center">
+  <img src="demo1.gif" width="400" />
+  <img src="demo2.gif" width="400" />
+</div>
+
+## 🎮 Guide d'Utilisation
+
+### 1️⃣ Gestion des Produits
+```typescript
+// Exemple d'ajout de produit
+const newProduct = {
+  name: "Laptop XPS",
+  minStock: 5,
+  supplier: "Dell"
+};
+```
+
+### 2️⃣ Mouvements de Stock
+```typescript
+// Exemple de réception
+const reception = {
+  quantity: 10,
+  date: "2025-07-31",
+  supplier: "Dell"
+};
+```
+
+## 🔐 Sécurité
+
+```typescript
+// Exemple de block
+interface Block {
+  index: number;
+  timestamp: number;
+  data: any;
+  previousHash: string;
+  hash: string;
+}
+```
+
+## 🌈 Interface Utilisateur
+
+### Thème Principal
+```css
+:root {
+  --primary: #2563eb;
+  --success: #10b981;
+  --warning: #f59e0b;
+  --error: #ef4444;
+}
+```
+
+## 📱 Responsive Design
+
+```css
+/* Mobile First Approach */
+.container {
+  @apply mx-auto px-4;
+  @screen sm { max-width: 640px; }
+  @screen md { max-width: 768px; }
+  @screen lg { max-width: 1024px; }
+  @screen xl { max-width: 1280px; }
+}
+```
+
+## 🤝 Contribution
+
+Nous accueillons les contributions ! Consultez notre guide de contribution pour commencer.
+
+```typescript
+interface Contributor {
+  name: string;
+  role: "Developer" | "Designer" | "Tester";
+  contributions: string[];
+}
+```
+
+## 📈 Feuille de Route
+
+- [x] MVP Release (v1.0.0)
+- [ ] Integration IA pour prévisions
+- [ ] Application mobile
+- [ ] API publique
+- [ ] Integration IoT
+
+## 🌟 Équipe
+
+<div align="center">
+  
+| Nom | Rôle | GitHub |
+|-----|------|--------|
+| HAMMOUDA | Lead Developer | [@HAMMOUDAmustaphaahmed](https://github.com/HAMMOUDAmustaphaahmed) |
+
+</div>
+
+## 📄 Licence
+
+MIT © 2025 HAMMOUDA mustapha ahmed
+
+---
+
+<div align="center">
+
+### Made with ❤️ by HAMMOUDA mustapha ahmed
+
+</div>
