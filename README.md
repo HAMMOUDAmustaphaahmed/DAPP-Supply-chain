@@ -8,7 +8,7 @@
 [![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![Blockchain](https://img.shields.io/badge/Blockchain-121D33?style=for-the-badge&logo=blockchain.com&logoColor=white)](https://blockchain.com)
 
-![Supply Chain Banner]([https://your-banner-url.com/banner.png](https://www.shutterstock.com/image-vector/supply-chain-management-banner-web-260nw-2303524627.jpg)
+![Supply Chain Banner](https://www.shutterstock.com/image-vector/supply-chain-management-banner-web-260nw-2303524627.jpg)
 
 </div>
 
